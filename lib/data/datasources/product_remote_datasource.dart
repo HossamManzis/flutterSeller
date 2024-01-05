@@ -1,15 +1,16 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_seller_app/data/models/add_product_response_model.dart';
-import 'package:flutter_seller_app/data/models/image_response_model.dart';
-import 'package:flutter_seller_app/data/models/products_response_model.dart';
-import 'package:flutter_seller_app/data/models/request/product_request_model.dart';
+import 'package:seller_app/data/models/add_product_response_model.dart';
+import 'package:seller_app/data/models/image_response_model.dart';
+import 'package:seller_app/data/models/products_response_model.dart';
+import 'package:seller_app/data/models/request/product_request_model.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 
 import '../../common/global_variables.dart';
 
+import '../models/products_response_model.dart';
 import 'auth_local_datasource.dart';
 
 class ProductRemoteDatasource {
